@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AzureFunctionsVersion>v3</AzureFunctionsVersion>
@@ -7,10 +7,10 @@
     <UserSecretsId>6e411168-c629-497f-a624-9f8fcbcaef33</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.35" />
-    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="3.0.10" />
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.0.1" />
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.7" />
+    <PackageReference Include="Dapper" Version="2.0.90"/>
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="4.0.4"/>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0"/>
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.13"/>
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
